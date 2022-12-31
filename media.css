@@ -1,0 +1,573 @@
+@media(max-width: 500px){
+   
+   
+   .overlay{
+
+   }
+
+   .overlay .nav .zero{
+      height: 50px;
+   }
+
+   .cross{
+      height: 40px;
+      width: 40px;
+   }
+
+   .cross img{
+      height: 27px;
+   }
+   
+.overlay-main{
+   display: flex;
+   flex-direction: column;
+}
+
+   .overlay-left{
+      padding-right: 0;
+      padding-left: 10vw;
+
+   }
+
+   .overlay-left a{
+      font:500 1.8rem "roboto" ;
+   }
+   
+   .overlay-right{
+      margin-top: 3vmax;
+   }
+   
+   
+   
+   
+   nav{
+    height: 10vh ;
+    /* background-color: red; */
+   }
+   
+    nav img{
+        height: 50px;
+    }
+
+    nav ul li{
+        display: none;
+    }
+     nav ul i{
+        font-size: 2rem;
+     }
+
+     .page1{
+        height: 270vh;
+     }
+
+     .page1-top{
+        margin-top: 5vh;
+     }
+
+     .page1-top .box{
+        margin-left: 2vmax;
+     }
+
+.page1-top .box h1{
+    font: 600 3rem "nuckle";
+}
+
+.page1-top .box p{
+    font-size: 3rem;
+}
+
+.container-scroll{
+   height: 70vh;
+}
+
+.scrolling-image-container {
+   width: 1300vw;
+   height: 40vh;
+   /* overflow: hidden; */
+}
+
+
+@keyframes slide {
+   0% {
+     transform: translate(0);
+   }
+ 
+   100% {
+     transform: translate(-1800px);
+     /* The image width */
+   }
+ }
+ 
+ .scrolling-image16{
+   margin-right: 2vmax;
+   width: 100vw;
+   height: 250px;
+ }
+
+ .scrolling-image15{
+   margin-right: 2vmax;
+   width: 100vw;
+   height: 250px;
+ }
+
+
+ .scrolling-image14{
+   margin-right: 2vmax;
+   width: 100vw;
+   height: 250px;
+ }
+
+ .scrolling-image13{
+   margin-right: 2vmax;
+   width: 100vw;
+   height: 250px;
+ }
+
+ .page-2-bottom h1{
+   width: 100%;
+   margin-left: 0%;
+   margin-right: 0%;
+   /* background-color: aqua; */
+ }
+
+
+ .page-2-down{
+   margin-top: 20vh;
+   width: 70vw;
+   /* background-color: blue; */
+ }
+
+ .page-2-down button{
+   padding: 1.7vmax 6vmax;
+ }
+
+
+
+
+
+.page2{
+height: 320;
+}
+
+.page2-top{
+
+}
+
+.page2-top h1{
+   font-size: 3rem;
+   margin-bottom: 1vmax;
+}
+
+.page2-top span{
+   font-family: losta masta light;
+   font-weight: 400;
+}
+
+.page2-top p{
+   margin-bottom: 2vmax;
+   width: 70vw;
+}
+
+.page2-top button{
+   padding: 2vmax 7vmax;
+}
+
+.page2-bottom{
+   flex-direction: column;
+}
+
+.page2-bottom-left{
+   width: 100vw;
+   padding-right: 4vmax;
+}
+
+.page2-bottom-left h1{
+   font: 500 1.5rem "nuckle";
+}
+
+.page2-bottom-left p br{
+   display: none;
+}
+
+.page2-bottom-left p{
+   font-size: .9rem;
+   margin-top: 1vmax;
+}
+
+.page2-bottom-left .arrow{
+   padding: 1.5vmax 1.5vmax;
+}
+
+.page2-btm{
+   border: 1px solid #fff;
+  padding: 0 0px;
+  /* height: 60vh; */
+}
+
+.page2-btm h1{
+   font: 500 3rem "nuckle";
+}
+
+.page2-btm span{
+   font: 400 3rem "Losta Masta-";
+   font-family: losta masta light;
+
+}
+
+.page2-btm button{
+   padding: 2vmax 7vmax;
+   margin-top: 4vmax;
+}
+
+
+.page3{
+
+}
+
+.page3-main{
+   position: sticky !important;
+   top: 0%;
+}
+
+.page3-box{
+   /* position: sticky !important;
+   top: 0%; */
+}
+
+
+.page3-box-top{
+   justify-content: flex-start;
+   padding: 0 20px;
+}
+
+
+.page3-box-top h2{
+   font: 600 1.3rem "Nuckle";
+   margin-right: .5vmax;
+ }
+ 
+
+
+
+
+ .page4{
+   height: 140vh;
+ }
+
+
+
+.page4-top{
+   height: 40vh;
+
+}
+
+.page4-top h1{
+   font: 600 3rem "nuckle";
+}
+
+
+.page4-top span{
+   font: 600 3rem "glory";
+   font-family: losta masta light;
+
+ }
+
+
+ .swiper{
+   border-bottom: 1px solid white ;
+   height: 110%;
+ }
+ .div-slide{
+   padding: 0 10px;
+   height: 80vh;
+   width: 90vw;
+   flex-direction: column;
+ }
+
+ .slide-image{
+   width: 80vw;
+ }
+
+ .slide-image1{
+   width: 80vw;
+ }
+
+
+ .slide-image2{
+   width: 80vw;
+ }
+ 
+ .div-slide p{
+   margin-top: 4vmax;
+   margin-left: 0;
+  margin-bottom: 0;
+ }
+
+
+
+ .page5{
+   height: 70vh;
+ }
+
+ .page5 img{
+   height: 60px;
+ }
+
+
+@keyframes scroll {
+  0%{
+      transform: translateX(0);
+  }
+  100%{
+      transform: translateX(calc(100% - 1800px));
+  }
+  }
+
+
+
+.page6{
+   height: ;
+   /* background-color: blue; */
+}
+
+
+  .page6-main{
+
+  }
+
+.page6-main h1{
+   font: 600 3rem "nuckle";
+}
+
+.page6-main p{
+   width: 60%;
+   line-height: 25px;
+   /* margin: auto; */
+}
+
+.page6-main h1 span{
+font-weight: 400;
+}
+
+.page6-top{
+   width: 90vw;
+}
+  
+.page6-top1, .page6-top2{
+   /* margin-left: 2vmax; */
+   width: 45vw;
+   padding: 0 10px;
+}
+
+
+.page6-main h1{
+   font: 500 2.9rem "nuckle";
+}
+
+
+.page6-top1.page6-top2, h1{
+   font: 500 2.9rem "ro";
+   font-family: losta masta light;
+}
+
+.page6-bottom{
+   margin-top: 10vmax;
+   width: 90vw;
+   margin-left: 0vmax;
+   justify-content: space-around;
+}
+
+.page6-top3, .page6-top4{
+   height: 60vh;
+   /* background-color: aqua; */
+   display: flex;
+   justify-content: flex-start;
+}
+
+
+.page7{
+   flex-direction: column;
+   height: 370vh ;
+}
+
+.page7-left{
+   width: 90vw;
+   height: 50vh;
+}
+
+.page7-left h1{
+   font: 600 3rem "nuckle";
+}
+
+.page7-right{
+   /* background-color: aqua; */
+   /* margin: auto; */
+   width: 90vw;
+
+}
+
+.page7-right-child{
+   /* background-color: blue; */
+   margin-bottom: 5vmax;
+   margin-left: auto;
+   margin-right: auto;
+   /* margin: auto; */
+   width: 80vw;
+   height: 50vh;
+   /* padding:none; */
+   margin-left: 10%;
+}
+
+.page-7-image{
+   width: 70vw;
+   height: 35vw;
+   margin-top: 7vmax;
+   border-radius: 20px;
+}
+
+.page-7-image1{
+   width: 70vw;
+   height: 35vw;
+   margin-top: 7vmax;
+   border-radius: 20px;
+}
+
+.page-7-image2{
+   width: 70vw;
+   height: 30vw;
+   margin-top: 7vmax;
+   border-radius: 20px;
+}
+
+.page-7-image3{
+   width: 70vw;
+   height: 35vw;
+   margin-top: 7vmax;
+   border-radius: 20px;
+}
+
+.page-7-image4{
+   width: 70vw;
+   height: 35vw;
+   margin-top: 7vmax;
+   border-radius: 20px;
+}
+
+.page-7-image5{
+   width: 70vw;
+   height: 35vw;
+   margin-top: 7vmax;
+   border-radius: 20px;
+}
+
+
+
+.page8{
+   height: 160vh;
+   /* background-color: aqua; */
+}
+
+.page8-main{
+border-radius: 20px;
+width: 90vw;
+height: 160vh;
+margin: auto;
+/* border-bottom: 2px solid white; */
+margin-left: 5%;
+}
+
+
+.page8-box{
+height: 45vh;
+width: 90vw;
+}
+
+.page8-box h1{
+   font: 600 1.9rem "nuckle";
+}
+
+.page8-box p{
+   font: 500 1.1rem "nuckle";
+}
+
+.page8-box button{
+   margin-right: 3vmax;
+   margin-left: 7vmax;
+   margin-bottom: 2vmax;
+}
+
+.page8-box1{
+width: 90vw;
+}
+
+.page8-box1 h1{
+   font: 500 1.1rem "nuckle";
+}
+
+.page8-box1 button{
+   margin-left: 7vmax;
+   margin-right: 5vmax;
+   margin-bottom: 2vmax;
+}
+
+
+.page8-box2{
+width: 90vw;
+}
+
+.page8-box2 button{
+   /* margin-left: 10vmax; */
+
+   width: 50vw;
+   height: 7vh;
+}
+
+.page8-box3{
+   width: 75vw;
+}
+
+.page8-box3 h1{
+   font: 500 1.2rem "nuckle";
+}
+
+.page8-box4{
+
+}
+
+.page8-box4 button{
+   /* margin-left: 5vmax; */
+   width: 60vw;
+   font-weight: 700;
+   font-size: 1.1rem;
+}
+
+.page9{
+   overflow-x: hidden;
+   height: 70vh;
+}
+
+
+.page9-main{
+   margin-top: 0vmax;
+   width: 90vw;
+   height: 30vh;
+   justify-content: center;
+   
+}
+
+.page9-box{
+   margin-top: -5vmax;
+   width: 30vw;
+}
+
+.page9-box h2{
+   font-size: .9rem;
+}
+
+
+.page9-box p{
+font-size: .8rem;
+}
+
+
+}
